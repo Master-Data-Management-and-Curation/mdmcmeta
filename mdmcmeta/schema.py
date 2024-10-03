@@ -12,29 +12,3 @@ class MetadataCreate(BaseModel):
 
 class MetadataGet(MetadataCreate):
 	id: int
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
