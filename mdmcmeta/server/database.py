@@ -1,10 +1,11 @@
-from schema import MetadataCreate
+from ..schema import MetadataCreate
 
 class Database:
-    __data : dict = {}
+    __data = None
     __id_generator : int
 
     def __init__(self):
+	self.__data = {}
         self.__id_generator = self.__gen_id()
 
     def store(self, obj:MetadataCreate):
