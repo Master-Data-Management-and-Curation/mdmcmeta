@@ -1,7 +1,7 @@
-from schema import MetadataCreate
+from ..schema import MetadataCreate
 
 class Database:
-    __data : dict
+    __data = None
     __id_generator : int
 
     def __init__(self):
