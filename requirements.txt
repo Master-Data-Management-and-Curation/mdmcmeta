@@ -1,3 +1,5 @@
 pydantic
 numpy
 pillow
+httpx
+fastapi
