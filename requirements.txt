@@ -2,4 +2,7 @@ pydantic
 numpy
 pillow
 httpx
-fastapi
+fastapi[standard]
+
+# the following installs the package we are currently developing
+.
